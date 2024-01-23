@@ -1,0 +1,60 @@
+/* Custom CSS */
+body {
+    /* background: linear-gradient(to top right, rgb(227, 127, 4), rgb(43, 43, 255)); */
+    /*background-image: url('../Images/background.jpg');*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0; /* To remove default body margin */
+    padding: 0; /* To remove default body padding */
+    height: 100vh; /* Set the height of the body to the viewport height */
+  }
+
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.content, header img {
+    position: relative;
+}
+.giticon {
+    position: absolute;
+}
+
+header img {
+    width: 15%;
+    height: 15%;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 3em;
+    overflow:visible;
+}
+
+.section {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    vertical-align: top;
+    margin-top: 3em;
+}
+
+.section h2 {
+    font-size: 24px;
+}
+
+.section p {
+    font-size: 16px;
+}
+
+
